@@ -69,30 +69,9 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           </div>
         </motion.div>
         
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 mb-4 transition-colors"
-        >
-          {isExpanded ? (
-            <>
-              <span className="mr-1">Show less</span>
-              <ChevronUp size={16} />
-            </>
-          ) : (
-            <>
-              <span className="mr-1">Read more</span>
-              <ChevronDown size={16} />
-            </>
-          )}
-        </button>
         
-        <div className="flex flex-wrap gap-2 mt-4">
-          {experience.technologies.map((tech, index) => (
-            <Badge key={index} variant="primary" size="sm">
-              {tech}
-            </Badge>
-          ))}
-        </div>
+        
+        
       </div>
     </Card>
   );

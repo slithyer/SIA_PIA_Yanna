@@ -1,15 +1,15 @@
 import { PersonalInfo } from '../types';
 
 export const personalInfo: PersonalInfo = {
-  name: 'Alex Morgan',
-  title: 'Software Engineer & UI/UX Designer',
-  location: 'San Francisco, CA',
-  email: 'alex.morgan@example.com',
+  name: 'Alyana Mirasol',
+  title: 'Cosplayer, Content Creator and Gaming',
+  location: 'Cugman, Cagayan de Oro City',
+  email: 'kuromisanyo@gmail.com',
   socials: {
-    linkedin: 'https://linkedin.com/in/alexmorgan',
-    github: 'https://github.com/alexmorgan',
-    twitter: 'https://twitter.com/alexmorgan'
+    linkedin: 'N/a',
+    github: 'https://github.com/slithyer',
+    twitter: 'N/a'
   },
-  bio: 'I\'m a passionate software engineer with over 5 years of experience building innovative web applications. My expertise spans front-end and back-end development, with a special focus on creating intuitive user experiences. I enjoy tackling complex problems and turning ideas into elegant, efficient solutions.',
-  profileImage: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800'
+  bio: 'Sharp and ambitious 20-year-old with a natural knack for spotting opportunities. while i keep things low-key, my effortless style and a certain air of confidence shows i\'m not exactly counting pennies. i often juggling classes with intriguing personal projects, and has a passport full of stamps from recent trips to places most people only dream of visiting during spring break.',
+  profileImage: 'src\\img\\mylove.jpg'
 };

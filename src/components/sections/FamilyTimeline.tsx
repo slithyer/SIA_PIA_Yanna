@@ -82,11 +82,9 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ event, isEven }) => {
           {isEven ? (
             <div className="md:pl-12">
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                <span className="inline-block px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium mb-3">
-                  {event.year}
-                </span>
+                
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{event.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400">{event.description}</p>
+                <p className="text-gray-600 dark:text-gray-400 text-justify">{event.description}</p>
               </div>
             </div>
           ) : (
@@ -116,9 +114,6 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ event, isEven }) => {
           ) : (
             <div className="md:pl-12">
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-                <span className="inline-block px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium mb-3">
-                  {event.year}
-                </span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{event.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">{event.description}</p>
               </div>

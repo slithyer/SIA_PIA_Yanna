@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             scrollToSection('#home');
           }}
         >
-          Alex Morgan
+          Ailee
         </a>
 
         {/* Desktop Navigation */}

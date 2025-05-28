@@ -64,17 +64,11 @@ const About: React.FC = () => {
               <span className="text-gray-700 dark:text-gray-300">{personalInfo.title}</span>
             </motion.div>
             
-            <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 mt-6 leading-relaxed">
-              I'm a dedicated professional with a passion for creating digital experiences that are both beautiful and functional. My journey in technology began with a curiosity about how things work, which evolved into a career focused on building innovative solutions.
+            <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 mt-6 leading-relaxed text-justify">
+              {personalInfo.bio}
             </motion.p>
             
-            <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Whether I'm coding a complex application or designing an intuitive interface, I bring a problem-solving mindset and attention to detail to every project. I believe in continuous learning and staying updated with emerging technologies to deliver the best possible solutions.
-            </motion.p>
             
-            <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              When I'm not in front of a computer, you'll find me exploring nature trails, experimenting with new recipes, or immersing myself in a good book. These diverse interests help fuel my creativity and bring fresh perspectives to my work.
-            </motion.p>
           </motion.div>
           
           <motion.div
@@ -88,19 +82,19 @@ const About: React.FC = () => {
             <div className="relative bg-white dark:bg-gray-800 rounded-lg p-6 shadow-xl">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">5+</span>
+                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">2+</span>
                   <span className="text-sm text-gray-600 dark:text-gray-400 text-center">Years of Experience</span>
                 </div>
                 <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">50+</span>
+                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">3+</span>
                   <span className="text-sm text-gray-600 dark:text-gray-400 text-center">Projects Completed</span>
                 </div>
                 <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">30+</span>
+                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">3+</span>
                   <span className="text-sm text-gray-600 dark:text-gray-400 text-center">Happy Clients</span>
                 </div>
                 <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">15+</span>
+                  <span className="text-3xl font-bold text-primary-600 dark:text-primary-400">10+</span>
                   <span className="text-sm text-gray-600 dark:text-gray-400 text-center">Technologies</span>
                 </div>
               </div>
@@ -141,7 +135,7 @@ const About: React.FC = () => {
                   <div>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-gray-700 dark:text-gray-300">Back-end Development</span>
-                      <span className="text-sm text-gray-700 dark:text-gray-300">75%</span>
+                      <span className="text-sm text-gray-700 dark:text-gray-300">69%</span>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                       <motion.div 

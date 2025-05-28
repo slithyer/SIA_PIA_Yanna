@@ -3,38 +3,22 @@ import { Project } from '../types';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'EcoTrack',
-    description: 'A mobile application that helps users monitor and reduce their carbon footprint through daily habit tracking and personalized recommendations.',
+    title: 'Modeling',
+    description: 'Projects You Are Still Working On'+
+                  'Currently, i\'m not just a model, but you\'re also developing my own digital presence, building a curated online platform that showcases my personal style and beauty insights, or even launching a small, exclusive e-commerce venture related to beauty or gaming accessories. i also be exploring collaborations that bridge my modeling career with my gaming passion, perhaps streaming or creating content around my favorite titles, even investing in a small esports team.',
     technologies: ['React Native', 'Firebase', 'Node.js', 'Express'],
-    imageUrl: 'https://images.pexels.com/photos/3952013/pexels-photo-3952013.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/D4D12AQGIOw3bWTFaMg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1691152631824?e=2147483647&v=beta&t=T4VSz-eDGyFfF6hTe6VKspmV2ODGt2qP3vaFzUQ5Xpo',
     status: 'in-progress',
-    link: 'https://github.com/ecotrack'
+    link: 'null'
   },
   {
     id: '2',
-    title: 'FinViz Dashboard',
-    description: 'An interactive financial visualization dashboard that helps investors analyze market trends and make data-driven investment decisions.',
+    title: 'Content Creation',
+    description: 'A social media content creation and scheduling platform designed for influencers and marketing teams. It offers AI-powered post generation, customizable templates, hashtag analytics, and auto-scheduling for platforms like Instagram, TikTok, and Twitter.',
     technologies: ['React', 'D3.js', 'TypeScript', 'Express', 'MongoDB'],
-    imageUrl: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://imageio.forbes.com/specials-images/imageserve/626b70d70a3dae74c91617f9/How-To-Become-a-Successful-Video-Content-Creator---Insights-From-KallmeKris/960x0.jpg?height=473&width=711&fit=bounds',
     status: 'completed',
-    link: 'https://finviz-dashboard.example.com'
+    link: 'null'
   },
-  {
-    id: '3',
-    title: 'MindfulMinutes',
-    description: 'A meditation and mindfulness app designed to help users incorporate brief mindfulness practices into their busy daily routines.',
-    technologies: ['Flutter', 'Dart', 'Firebase', 'Cloud Functions'],
-    imageUrl: 'https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&w=800',
-    status: 'completed',
-    link: 'https://mindfulminutes.example.com'
-  },
-  {
-    id: '4',
-    title: 'SmartHome Hub',
-    description: 'An IoT platform that integrates various smart home devices and provides a unified interface for monitoring and control.',
-    technologies: ['React', 'Node.js', 'MQTT', 'MongoDB', 'WebSockets'],
-    imageUrl: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800',
-    status: 'planned',
-    link: 'https://github.com/smarthomehub'
-  }
+  
 ];

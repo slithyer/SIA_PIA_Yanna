@@ -10,16 +10,16 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
-              Alex Morgan
+              Ailee
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Software Engineer & UI/UX Designer
+              Cosplayer & Gamer Girl
             </p>
           </div>
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com/alexmorgan" 
+              href="https://github.com/slithyer" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/alexmorgan" 
+              href="https://www.facebook.com/xie.ino#" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://twitter.com/alexmorgan" 
+              href="https://www.facebook.com/xie.ino#" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
               <Twitter size={20} />
             </a>
             <a 
-              href="mailto:alex.morgan@example.com" 
+              href="kuromisanyo@gmail.com" 
               className="text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors"
               aria-label="Email"
             >
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            &copy; {currentYear} Alex Morgan. All rights reserved.
+            &copy; {currentYear} Ailee. All rights reserved.
           </p>
         </div>
       </div>

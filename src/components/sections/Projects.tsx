@@ -70,24 +70,6 @@ const Projects: React.FC = () => {
                   <p className="text-gray-600 dark:text-gray-400 mb-6">
                     {projects[activeIndex].description}
                   </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {projects[activeIndex].technologies.map((tech, index) => (
-                      <Badge key={index} variant="primary" size="sm">
-                        {tech}
-                      </Badge>
-                    ))}
-                  </div>
-                  
-                  {projects[activeIndex].link && (
-                    <Button 
-                      variant="outline"
-                      icon={<ExternalLink size={16} />}
-                      onClick={() => window.open(projects[activeIndex].link, '_blank')}
-                    >
-                      View Project
-                    </Button>
-                  )}
                 </div>
               </Card>
             </motion.div>
